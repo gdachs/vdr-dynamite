@@ -1,0 +1,12 @@
+diff -Nur vdr-plugin-dynamite-914af249.orig/Makefile vdr-plugin-dynamite-914af249/Makefile
+--- vdr-plugin-dynamite-914af249.orig/Makefile	2012-05-23 21:22:59.000000000 +0200
++++ vdr-plugin-dynamite-914af249/Makefile	2013-01-06 18:39:05.771237263 +0100
+@@ -29,7 +29,7 @@
+ 
+ ### Make sure that necessary options are included:
+ 
+-include $(VDRDIR)/Make.global
++-include $(VDRDIR)/Make.global
+ 
+ ### Allow user defined options to overwrite defaults:
+ 
